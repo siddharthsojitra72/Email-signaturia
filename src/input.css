@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+
+@theme {
+    --font-primary: 'DM Sans', sans-serif;
+    --font-heading: "Lexend Deca", sans-serif;
+}
+
+img[alt="Decor"] {
+    pointer-events: none; 
+}
+
+body{
+    @apply font-primary font-bold
+}
+
+h1,h2,h3,h4,h5,h6{
+    @apply font-heading
+}
+
+.text-primary {
+    color: black;
+}
+
+.features-slider .splide__slide.is-active{@apply bg-linear-[180deg,#FFEBE3_0%,#E6F2FF_100%]}
+
+.review-slider .splide__slide.is-active{@apply bg-linear-[180deg,#FFEBE3_0%,#E6F2FF_100%]}
