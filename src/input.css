@@ -11,7 +11,7 @@ img[alt="Decor"] {
 }
 
 body{
-    @apply font-primary font-bold
+    @apply font-heading font-bold
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -24,6 +24,17 @@ h1,h2,h3,h4,h5,h6{
     color: black;
 }
 
+
 .features-slider .splide__slide.is-active{@apply bg-linear-[180deg,#FFEBE3_0%,#E6F2FF_100%]}
 
 .review-slider .splide__slide.is-active{@apply bg-linear-[180deg,#FFEBE3_0%,#E6F2FF_100%]}
+
+/* Hide horizontal scrollbar in modern browsers */
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}

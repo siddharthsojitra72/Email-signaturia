@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="./asset/Group.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./silder/splide.min.css">
+    <script src="./silder/splide.js"></script>
+    
+    <!-- Tailwind CSS -->
+    <link href="./output.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="bg-[linear-gradient(180deg,_#FFEBE3_0%,_rgba(230,242,255,0.1)_102.33%)] ">
+        <header class="py-6">
+            <div class="container mx-auto px-3.5 sm:px-8 flex justify-between items-center">
+    
+                <!-- Logo -->
+                <a href="./index.html"><img src="./asset/Frame.svg" alt="Logo" class="max-w-32 sm:max-w-52" /></a>
+    
+                <!-- Desktop Navigation -->
+                <ul
+                    class="hidden lg:flex gap-10 font-medium bg-white py-4 px-10 rounded-full items-center shadow-md text-gray-700 text-sm sm:text-base">
+                    <li><a href="./index.html" class="hover:text-orange-500 transition">Home</a></li>
+                    <li><a href="./Pricing.html" class="hover:text-orange-500 transition">Pricing</a></li>
+                    <li><a href="./faq.html" class="hover:text-orange-500 transition">FAQ</a></li>
+                    <li><a href="./contact.html" class="hover:text-orange-500 transition">Contact</a></li>
+                    <li><a href="./free.html" class="hover:text-orange-500 transition">Try for - Free</a></li>
+                </ul>
+    
+                <!-- Desktop Auth -->
+                <div class="hidden lg:flex gap-3 items-center">
+                    <a href="./log-in.html" class="text-sm sm:text-base text-[#202C39] hover:underline">Log In</a>
+                    <a href="./sign-up.html"
+                        class="text-white text-sm sm:text-base px-4 sm:px-6 py-2 sm:py-3 rounded-full bg-[linear-gradient(180deg,_#FF925C_0%,_#E55812_100%)] hover:brightness-110 transition duration-200">
+                        Sign Up
+                    </a>
+                </div>
+    
+                <!-- Mobile Menu Button -->
+                <button id="menu-toggle" class="lg:hidden focus:outline-none">
+                    <img src="./asset/menu.png" alt="Menu" class="w-6 h-6" />
+                </button>
+            </div>
+    
+            <!-- Mobile Slide-In Menu (Right Side) -->
+            <div id="mobile-drawer"
+                class="fixed top-0 right-0 w-10/12 h-full bg-white z-50 transform translate-x-full transition-transform duration-300 lg:hidden">
+                <div class="flex justify-end p-5">
+                    <button id="close-drawer" class="text-gray-500 text-2xl font-bold">&times;</button>
+                </div>
+    
+                <div class="flex flex-col items-center gap-6 text-lg font-medium text-[#202C39] px-6">
+                    <a href="./index.html" class="hover:text-orange-500">Home</a>
+                    <a href="./Pricing.html" class="hover:text-orange-500 active">Pricing</a>
+                    <a href="./faq.html" class="hover:text-orange-500">FAQ</a>
+                    <a href="./contact.html" class="hover:text-orange-500">Contact</a>
+                    <a href="./free.html" class="hover:text-orange-500">Try for - Free</a>
+    
+                    <hr class="w-full border-t my-4" />
+    
+                    <!-- Auth Buttons -->
+                    <a href="./log-in.html" class="text-sm text-[#202C39] hover:underline">Log In</a>
+                    <a href="./sign-up.html"
+                        class="text-white text-sm px-6 py-2 rounded-full bg-[linear-gradient(180deg,_#FF925C_0%,_#E55812_100%)] hover:brightness-110 transition duration-200 flex justify-center items-center w-fit mx-auto">
+                        Sign Up
+                    </a>
+    
+                </div>
+            </div>
+        </header>
+    
+    
+        <section>
+            <div class="text-center sm:pt-28 pt-12  container mx-auto px-3.5">
+                <h1 class="text-orange text-2xl sm:text-5xl lg:text-7xl font-bold  mb-6 text-orange-600 capitalize md:leading-24 leading-10">
+                    Get in touch with us
+                    <span class="text-primary block text-2xl sm:text-5xl lg:text-7xl">for more information</span>
+                </h1>
+                <p class="max-w-[692px] m-auto font-medium mb-6 sm:text-base text-xs">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                    dummy text.
+                </p>
+            </div>
+        </section>
+    </div>
+
+
+    <section>
+        <div class="container mx-auto px-3.5 mt-28">
+            <div class="flex flex-col lg:flex-row xl:gap-20 gap-12 items-center justify-center">
+                <div class="max-w-[603px] w-full">
+                    <h4 class="text-[26px] font-primary capitalize">Have a question?</h4>
+                    <p class="font-normal pt-2 text-base lg:max-w-[575px] max-w-full ">Lorem Ipsum is simply dummy text of the printing and typesetting industryLorem Ipsum has been the industry's standard
+                        dummy text ever since the 1500s, when an unknown printer.</p>
+                    <div class="mt-[34px]">
+                        <div class="flex flex-col">
+                            <label for="firstName" class="font-medium text-base capitalize">first Name</label>
+                            <input type="text" name="" id="firstName" placeholder="first Name" class="border-2 border-[#EBEBEB] p-3.5 rounded-lg text-[#C3C3C3] capitalize text-sm font-medium font-primary mt-2">
+                        </div>
+                        <div class="flex flex-col mt-[22px]">
+                            <label for="LastName" class="font-medium text-base capitalize">Last Name</label>
+                            <input type="text" name="" id="LastName" placeholder="Last Name" class="border-2 border-[#EBEBEB] p-3.5 rounded-lg text-[#C3C3C3] capitalize text-sm font-medium font-primary mt-2">
+                        </div>
+                        <div class="flex flex-col mt-[22px]">
+                            <label for="E-mail" class="font-medium text-base capitalize">E-mail</label>
+                            <input type="email" name="" id="E-mail" placeholder="E-mail" class="border-2 border-[#EBEBEB] p-3.5 rounded-lg text-[#C3C3C3] capitalize text-sm font-medium font-primary mt-2">
+                        </div>
+                        <div class="flex flex-col mt-[22px]">
+                            <label for="Message" class="font-medium text-base capitalize">Message</label>
+                            <textarea name="" id="Message" placeholder="Message Here" rows="4" class="border-2 border-[#EBEBEB] p-3.5 rounded-lg text-[#C3C3C3] capitalize text-sm font-medium font-primary mt-2"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="xl:max-w-[600px] lg:max-w-[460px] max-w-full bg-linear-[180deg,#FFEBE3_0%,#E6F2FF_100%] sm:px-12 px-6 sm:py-[70px] py-[35px] rounded-[18px]">
+                    <h2 class="text-[32px] capitalize">Get in touch</h2>
+                    <p class="sm:text-base text-sm font-normal mt-9">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.
+                    </p>
+                    <div class="flex gap-[18px] items-center sm:pt-12 pt-6"> 
+                        <div class="bg-white p-3.5 rounded-full">
+                            <img src="./asset/phone-2.png" alt="" height="22" width="22"> 
+                        </div>
+                        <div>
+                            <p class="text-lg">Phone</p>
+                            <span class="font-medium text-[#202C39CC] text-sm">+1 (469) 555-4099</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-[18px] items-center sm:pt-12 pt-6"> 
+                        <div class="bg-white p-3.5 rounded-full">
+                            <img src="./asset/location-2.png" alt="" height="22" width="22"> 
+                        </div>
+                        <div>
+                            <p class="text-lg">Address</p>
+                            <span class="font-medium text-[#202C39CC] text-sm">Nueces St, Austin, TX 78701</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-[18px] items-center sm:pt-12 pt-6"> 
+                        <div class="bg-white p-3.5 rounded-full">
+                            <img src="./asset/email-2.png" alt="" height="22" width="22"> 
+                        </div>
+                        <div>
+                            <p class="text-lg">Email</p>
+                            <span class="font-medium text-[#202C39CC] text-sm">support@appliedmind.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sm:mt-[70px] mt-[30px]">
+                <a href="#"
+                    class="text-white text-base sm:px-9 sm:py-5 px-4.5 py:2.5 rounded-full bg-[linear-gradient(180deg,_#FF925C_0%,_#E55812_100%)] hover:brightness-110 transition duration-200 flex justify-center items-center w-fit mx-auto">
+                    Send Message
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-primary text-white text-center sm:text-left mt-[150px]">
+        <div class="container mx-auto px-3.5">
+            <div class="flex flex-col lg:flex-row gap-9  justify-between  py-16 md:py-24 border-b border-[#FFFFFF]">
+                <div class="lg:w-1/3 max-w-[448px]">
+                    <img src="./asset/Untitled-4-dark 2.svg" alt="">
+                    <p class="font-medium pt-7 text-left sm:text-base text-sm">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard
+                        dummy text ever since the 1500s, when an unknown printer.</p>
+                </div>
+    
+                <div class="lg:w-1/3 flex justify-between gap-10 max-w-[244px] mx-auto sm:mx-0">
+                    <div>
+                        <span class="text-base md:text-xl font-semibold mb-1.5 md:mb-4">Website</span>
+                        <ul class="font-normal mt-4">
+                            <li><a href="./index.html">Home</a></li>
+                            <li class="mt-2.5"><a href="#">pricing</a></li>
+                            <li class="mt-2.5"><a href="#">FAQ</a></li>
+                            <li class="mt-2.5"><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+    
+                    <div>
+                        <span class="text-base md:text-xl font-semibold mb-1.5 md:mb-4">Legal</span>
+                        <ul class="font-normal mt-4">
+                            <li><a href="#">Instagram</a></li>
+                            <li class="mt-2.5"><a href="#">LinkedIn</a></li>
+                            <li class="mt-2.5"><a href="#">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="lg:w-1/3 max-w-[425px]">
+                    <h6 class="text-xl font-semibold text-left  ">Stay Updated</h6>
+                    <p class="text-base font-normal max-w-2xs mt-4 text-left">Get exclusive offers and become part of
+                        our
+                        family!</p>
+                    <div class="flex mt-6 relative">
+                        <input type="email" name="" id="emailaddress" placeholder="Email address"
+                            class=" bg-white p-4 w-full rounded-md font-normal">
+                        <button
+                            class="absolute right-3 top-2 bottom-2 bg-orange-600 py-2.5 px-[26px] rounded-[5px] font-normal">subscribe</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="py-9 flex sm:flex-row flex-col sm:justify-between justify-center gap-4">
+                <p>@Copyright mail signatory 2025 / Terms & Condiations</p>
+                <div class="flex gap-9 justify-center">
+                    <img src="./asset/facebook.png" alt="" width="25" height="25">
+                    <img src="./asset/Vector.png" alt="" width="25" height="25">
+                    <img src="./asset/instagram.png" alt="" width="25" height="25">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/theme.js"></script>
+
+</body>
+</html>
